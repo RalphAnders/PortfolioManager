@@ -20,8 +20,10 @@ import App from './app';
 // Init F7 Vue Plugin
 Framework7.use(Framework7Vue)
 
+Vue.prototype.$globalData = {userName: 'things'};
+
 // Init App
-new Vue({
+var globalApp = new Vue({
   el: '#app',
   template: '<app/>',
 

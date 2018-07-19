@@ -67,6 +67,7 @@ import routes from './routes.js'
 export default {
   data() {
     return {
+      userName: 'ralph',
       // Framework7 parameters here
       f7params: {
         id: 'io.framework7.testapp', // App bundle ID
